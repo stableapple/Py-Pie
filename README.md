@@ -1,2 +1,2 @@
 # Py-Pie
-Contains the python scripts I made.
+This repository contains some python scripts.
