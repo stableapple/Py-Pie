@@ -1,13 +1,13 @@
-def reverse(sen):
+def reverse(sent):
 	list1=[]
-	list1= sen.split()
+	list1= sent.split()
 	list2=[]
 	for i in list1:
 		list2.insert(0,i)
 	return list2
 		
 def main():
-	sen= raw_input("Enter the sentence: ")
+	sent= raw_input("Enter the sentence: ")
 	k=[]
 	k= reverse(sen)
 	print ' '.join(str(p) for p in k)
